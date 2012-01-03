@@ -32,6 +32,9 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=/Users/wadewest/.rvm/bin:/opt/local/bin:/opt/local/sbin:/Users/wadewest/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
 
+# Set my editor
+EDITOR=vim
+
 # Source rvm if rvm is installed
 if [[ -s $HOME/.rvm/scripts/rvm ]] ; then source $HOME/.rvm/scripts/rvm ; fi
 
